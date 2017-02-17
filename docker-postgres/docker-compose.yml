@@ -1,0 +1,12 @@
+postgres:
+  container_name: local-postgres
+  image: postgres:latest
+  ports:
+    - "5432:5432"
+  environment:
+    - DEBUG=false
+    - DB_USER=postgres
+    - DB_PASS=local_pass
+    - DB_NAME=db_local
+  volumes:
+    - /srv/docker/postgresql:/var/lib/postgresql
