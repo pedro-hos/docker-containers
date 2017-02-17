@@ -4,7 +4,7 @@ Docker rabbitMQ container.
 
 # Install #
 
-* [docker and docker compose](https://bitbucket.org/gsw-team/manual) 
+* docker and docker compose
 
 # Run #
 
